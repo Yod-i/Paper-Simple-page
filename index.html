@@ -11,20 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__navbar">
-                <a href="" class="header__logo">
+                <a href="#" class="header__logo">
                     <img src="assets/sprites/logo.svg" alt="Simpler logo">
                 </a>
-    
                 <div class="header__link">
                     <a href="#" class="header__text">Продукция</a>
                     <a href="#" class="header__text">Материалы</a>
                     <a href="#" class="header__text">О нас</a>
                     <a href="#" class="header__text">Контакты</a>
                 </div>
-    
                 <div class="header__btns">
                     <button class="header__btn-search">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -39,20 +37,16 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="main">
-        <!-- <div class="container"> -->
-            <section class="hero container">
-                <div class="hero__info">
-                    <h1 class="hero__title">Простые вещи. Из бумаги</h1>
-                    <p class="hero__subtitle">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый&nbsp;материал с минеральными добавками. </p>
-                    <a class="btn" href="#">Каталог</a>
-                </div>
-                <img src="assets/img/HeroImage.png" alt="" class="hero__img">
-            </section>
-        <!-- </div> -->
-            
+    </header>
+    <main class="main">
+        <section class="hero container">
+            <div class="hero__info">
+                <h1 class="hero__title">Простые вещи. Из бумаги</h1>
+                <p class="hero__subtitle">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый&nbsp;материал с минеральными добавками. </p>
+                <a class="btn" href="#">Каталог</a>
+            </div>
+            <img src="assets/img/HeroImage.png" alt="" class="hero__img">
+        </section>
         <section class="result">
             <div class="container">
                 <div class="result__cards">
@@ -88,57 +82,53 @@
                 </div>
             </div>
         </section>
-
-        <!-- <div class="container"> -->
-            <section class="products">
-                <div class="product__card">
-                    <img src="assets/img/Upakovka.png" alt="" class="product__img">
-                    <p class="product__name">Упаковка</p>
-                    <p class="product__tirazh">Тираж: от 50 штук</p>
-                    <p class="product__descr">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
-                    <a href="#" class="product__link">Подробнее
-                        <svg width="21" height="15" viewBox="0 0 21 15">
-                            <use href="assets/sprites/sprites.svg#arrow"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="product__card">
-                    <img src="assets/img/PaperBag.png" alt="" class="product__img">
-                    <p class="product__name">Пакеты</p>
-                    <p class="product__tirazh">Тираж: от 200 штук</p>
-                    <p class="product__descr">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
-                    <a href="#" class="product__link">Подробнее
-                        <svg width="21" height="15" viewBox="0 0 21 15">
-                            <use href="assets/sprites/sprites.svg#arrow"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="product__card">
-                    <img src="assets/img/Briefcase.png" alt="" class="product__img">
-                    <p class="product__name">Кейсы</p>
-                    <p class="product__tirazh">Тираж: от 30 штук</p>
-                    <p class="product__descr">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
-                    <a href="#" class="product__link">Подробнее
-                        <svg width="21" height="15" viewBox="0 0 21 15">
-                            <use href="assets/sprites/sprites.svg#arrow"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="product__card">
-                    <img src="assets/img/OtherProducts.png" alt="" class="product__img">
-                    <p class="product__name">Другие изделия </p>
-                    <p class="product__tirazh">Тираж: от 100 штук</p>
-                    <p class="product__descr">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
-                    <a href="#" class="product__link">Подробнее
-                        <svg width="21" height="15" viewBox="0 0 21 15">
-                            <use href="assets/sprites/sprites.svg#arrow"></use>
-                        </svg>
-                    </a>
-                    
-                </div>
-            </section>
-        <!-- </div> -->
-
+        <section class="products container">
+            <div class="product__card">
+                <img src="assets/img/Upakovka.png" alt="" class="product__img">
+                <p class="product__name">Упаковка</p>
+                <p class="product__tirazh">Тираж: от 50 штук</p>
+                <p class="product__descr">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+                <a href="#" class="product__link">Подробнее
+                    <svg width="21" height="15" viewBox="0 0 21 15">
+                        <use href="assets/sprites/sprites.svg#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="product__card">
+                <img src="assets/img/PaperBag.png" alt="" class="product__img">
+                <p class="product__name">Пакеты</p>
+                <p class="product__tirazh">Тираж: от 200 штук</p>
+                <p class="product__descr">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+                <a href="#" class="product__link">Подробнее
+                    <svg width="21" height="15" viewBox="0 0 21 15">
+                        <use href="assets/sprites/sprites.svg#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="product__card">
+                <img src="assets/img/Briefcase.png" alt="" class="product__img">
+                <p class="product__name">Кейсы</p>
+                <p class="product__tirazh">Тираж: от 30 штук</p>
+                <p class="product__descr">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+                <a href="#" class="product__link">Подробнее
+                    <svg width="21" height="15" viewBox="0 0 21 15">
+                        <use href="assets/sprites/sprites.svg#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="product__card">
+                <img src="assets/img/OtherProducts.png" alt="" class="product__img">
+                <p class="product__name">Другие изделия </p>
+                <p class="product__tirazh">Тираж: от 100 штук</p>
+                <p class="product__descr">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+                <a href="#" class="product__link">Подробнее
+                    <svg width="21" height="15" viewBox="0 0 21 15">
+                        <use href="assets/sprites/sprites.svg#arrow"></use>
+                    </svg>
+                </a>
+                
+            </div>
+        </section>
         <section class="partners">
             <div class="container">
                 <div class="partners__items">
@@ -149,7 +139,6 @@
                 </div>
             </div>
         </section>
-
         <section class="sketchbook container">
             <div class="sketchbook__info">
                 <span class="sketchbook__title">Simple скетчбук</>
@@ -158,7 +147,40 @@
             </div>
             <img src="assets/img/SketchBook.png" alt="" class="sketchbook__img">
         </section>
-
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#" class="footer__logo">
+                    <img src="assets/sprites/logo-footer.svg" alt="Simpler logo">
+                </a>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social-link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <use href="assets/sprites/sprites.svg#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <svg width="22" height="18" viewBox="0 0 22 18" fill="none">
+                            <use href="assets/sprites/sprites.svg#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <use href="assets/sprites/sprites.svg#insta"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
+                            <use href="assets/sprites/sprites.svg#yt"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">SIMPLE <span class="copyright-simvol">®</span> 2021</p>
+        </div>
+    </footer>
 </body>
 </html>

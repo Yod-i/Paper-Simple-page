@@ -19,9 +19,8 @@ a {
 .header__navbar {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    /* flex-direction: column; */
     padding: 26px 0;
 }
 
@@ -88,6 +87,7 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -153,9 +153,10 @@ a {
 }
 .result__cards {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
+    /* justify-content: center; */
     
 }
 .result__card-item {
@@ -199,6 +200,7 @@ a {
 
 .result__content {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 90px 40px;
 }
@@ -236,9 +238,9 @@ a {
 .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
-    margin: 90px 0 90px 0;
+    margin: 90px auto 90px auto;
 }
 
 .product__card {
@@ -250,6 +252,8 @@ a {
 }
 
 .product__name {
+    margin-top: 20px;
+    margin-bottom: 8px;
     color: #666666;
     font-weight: 400;
     font-size: 30px;
@@ -257,6 +261,8 @@ a {
 }
 
 .product__tirazh {
+    margin: 0;
+    margin-bottom: 8px;
     color: #B5B5BD;
     font-weight: 400;
     font-size: 14px;
@@ -265,6 +271,8 @@ a {
 }
 
 .product__descr {
+    margin: 0;
+    margin-bottom: 20px;
     color: #85859B;
     font-weight: 400;
     font-size: 18px;
@@ -295,7 +303,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .partner__item-img {
@@ -309,7 +318,7 @@ a {
 .sketchbook {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -336,4 +345,58 @@ a {
     max-width: 100%; 
     height: auto;
     margin-top: 90px;
+}
+
+.footer {
+    background-color: #4C5866;
+
+}
+
+.footer__top {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__social-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer__social-link:hover {
+    color: #DAD9FB;
+}
+
+.footer__social-link:active {
+    color: #7875FE;
+}
+
+.footer__bottom {
+    height: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright {
+    margin: 0;
+    color: #4C5866;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+}
+
+.copyright-simvol {
+    color: #bcbcbc;
 }
