@@ -232,3 +232,47 @@ a {
     font-size: 18px;
     line-height: 170%;
 }
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 90px 0 90px 0;
+}
+
+.product__card {
+    max-width: 255px;
+}
+
+.product__img {
+    
+}
+
+.product__name {
+    color: #666666;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.product__tirazh {
+    color: #B5B5BD;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+
+}
+
+.product__descr {
+    color: #85859B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;  
+}
+
+.product__link {
+    color: #7875FE;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
