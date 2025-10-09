@@ -117,7 +117,7 @@ a {
     color: #85859B;
 }
 
-.hero__btn {
+.btn {
     align-self: flex-start;
     padding: 24px 90px;
     border: 1px solid #7875FE;
@@ -130,12 +130,12 @@ a {
     transition: color 0.3s, background-color 0.3s;
 }
 
-.hero__btn:hover {
+.btn:hover {
     color: #fff;
     background-color: #7875FE;
 }
 
-.hero__btn:active {
+.btn:active {
     color: #fff;
     background-color: #4946B4;
 }
@@ -279,6 +279,11 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
+    transition: color 0.3s;
+}
+
+.product__link:hover {
+    color: #4946B4;
 }
 
 .partners {
@@ -297,6 +302,38 @@ a {
     box-sizing: border-box;
     width: 255px;
     height: 135px;
-    padding: 35px 40px;
+    padding: 35px 25px;
     border: 1px solid #C4C4C4;
+}
+
+.sketchbook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sketchbook__info {
+    max-width: 350px;
+    display: flex;
+    margin-top: 115px;
+}
+.sketchbook__title {
+    color: #666666;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+}
+.sketchbook__subtitle {
+    margin: 10px 0 30px;
+    color: #85859B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.sketchbook__img {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 90px;
 }
