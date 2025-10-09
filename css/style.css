@@ -236,6 +236,7 @@ a {
 .products {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
     margin: 90px 0 90px 0;
 }
@@ -271,8 +272,31 @@ a {
 }
 
 .product__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     color: #7875FE;
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
+}
+
+.partners {
+    padding: 90px 0 90px 0;
+    background-color: #EBEBEB;
+}
+
+.partners__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.partner__item-img {
+    box-sizing: border-box;
+    width: 255px;
+    height: 135px;
+    padding: 35px 40px;
+    border: 1px solid #C4C4C4;
 }
